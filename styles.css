@@ -1,0 +1,141 @@
+@font-face{
+    font-family: sr font;
+    src: url(dynamictrooper.ttf);
+}
+@font-face{
+    font-family: link font;
+    src: url(batmfa__.ttf);
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(10, 10, 10); 
+}
+
+spline-viewer {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.triangle {
+    position: absolute;
+    height: 10px;
+    width: 0;
+    opacity: 50%;
+    transform: scale(2) rotate(-2deg);
+    border-bottom: 2000px solid rgb(70, 70, 70);
+    border-right: 1000px solid transparent;
+    z-index: 2;
+    top: 70%; 
+    left: 45%;
+    transform-origin: bottom right;
+}
+
+h1 {
+    font-family: sr font;
+    position: absolute;
+    top: 1%;
+    left: 6%; 
+    transform: translateX(-50%); 
+    z-index: 3;
+    color: rgb(112, 111, 111);
+    background-color: transparent;
+    transform: scale(2);
+    letter-spacing: 2px;
+    
+}
+.youtube{
+    font-family: link font;
+    position: absolute;
+    top: 67.5%;
+    left: 9.5%;
+    transform: translateX(-50%);
+    z-index: 4;
+    color: rgb(112, 112, 112);
+    background-color: transparent;
+    font-size: 48px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.youtube:hover{
+    color: white;
+    font-size: 52px;
+
+}
+
+.ig{
+    font-family: link font;
+    position: absolute;
+    top: 73%;
+    left: 10.2%;
+    transform: translateX(-50%);
+    z-index: 4;
+    color: rgb(112, 112, 112);
+    background-color: transparent;
+    font-size: 45px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.ig:hover{
+    color: white;
+    font-size: 49px;
+}
+
+.discord{
+    font-family: link font;
+    position: absolute;
+    top: 78%;
+    left: 8.5%;
+    transform: translateX(-50%);
+    z-index: 4;
+    color: rgb(112, 112, 112);
+    background-color: transparent;
+    font-size: 48px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.discord:hover{
+    color: white;
+    font-size: 52px;
+}
+
+.aboutme{
+    font-family: link font;
+    position: absolute;
+    top: 83%;
+    left: 9.5%;
+    transform: translateX(-50%);
+    z-index: 4;
+    color: rgb(112, 112, 112);
+    background-color: transparent;
+    font-size: 45px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.aboutme:hover{
+    color: white;
+    font-size: 49px;
+}
+p{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    z-index: 5;
+    color: rgb(112, 111, 112);
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    white-space: pre-line;
+    padding-right: 1500px;
+}
